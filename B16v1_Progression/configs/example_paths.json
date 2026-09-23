@@ -1,0 +1,6 @@
+{
+  "base_model": "/path/to/stable-diffusion-v1-5",
+  "medical_lora": "/path/to/authorized/medical_lora",
+  "history_json": "/path/to/authorized/history.json",
+  "output_png": "/path/to/output.png"
+}

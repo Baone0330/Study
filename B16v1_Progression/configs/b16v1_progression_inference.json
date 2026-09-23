@@ -1,0 +1,19 @@
+{
+  "base_model": "EXTERNAL_SD15_PATH",
+  "medical_lora": "REQUIRED_EXTERNAL_WEIGHT",
+  "longitudinal_checkpoint": "weights/longitudinal_condition/release_safe_longitudinal_condition.pt",
+  "cpfm_checkpoint": "weights/b14_cpfm/release_safe_b14_cpfm.pt",
+  "progression_checkpoint": "weights/progression_condition/release_safe_progression_condition.pt",
+  "scheduler": "PNDMScheduler",
+  "prediction_type": "epsilon",
+  "steps": 30,
+  "guidance_scale": 7.0,
+  "resolution": [
+    512,
+    512
+  ],
+  "report_condition_active": false,
+  "structure_active": false,
+  "pathology_active": false,
+  "texture_active": false
+}

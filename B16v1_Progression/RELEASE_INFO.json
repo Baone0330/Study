@@ -1,0 +1,13 @@
+{
+  "release_name": "B16v1_Progression_v1",
+  "model_family": "B16v1",
+  "progression_condition": true,
+  "base_model": "Stable Diffusion 1.5",
+  "resolution": 512,
+  "num_inference_steps": 30,
+  "guidance_scale": 7.0,
+  "report_condition_active": false,
+  "structure_active": false,
+  "pathology_active": false,
+  "texture_active": false
+}

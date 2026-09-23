@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+*.log
+wandb/
+runs/
+outputs/
+generated_images/
+cache/
+tmp/

@@ -1,0 +1,10 @@
+{
+  "seed": 20260921,
+  "optimizer": "AdamW",
+  "lr": 0.002,
+  "weight_decay": 0.0001,
+  "batch_size": 128,
+  "max_epochs": 120,
+  "patience": 18,
+  "supervision": "next real historical exam within authorized Train history"
+}
