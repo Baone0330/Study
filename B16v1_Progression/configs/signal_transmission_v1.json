@@ -1,0 +1,21 @@
+{
+  "variant": "B16v1_progression_signal_transmission_v1",
+  "arms": [
+    "R",
+    "C",
+    "P",
+    "CP"
+  ],
+  "model_seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "condition_adapter": "LayerNorm16-Linear16x16-Tanh",
+  "cpfm_projection": "LayerNorm16-Linear16x16-SiLU",
+  "gate_initialization": 0.1,
+  "adapter_stage": "stage_1_only",
+  "base_cpfm": "B14CPFM",
+  "unet_hooks": "unchanged",
+  "release_weight_format": "tensor state_dict only; no optimizer, scheduler, patient IDs, or data paths"
+}
