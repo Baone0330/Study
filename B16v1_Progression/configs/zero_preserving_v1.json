@@ -1,0 +1,14 @@
+{
+  "variant": "B16v1_zero_preserving_progression_v1",
+  "training_cohort": "ZP_FIT_only",
+  "model_seeds": [42, 3407, 2026],
+  "arms": ["R", "ZC", "ZP", "ZCP"],
+  "comparisons": ["P_TRUE", "P_ZERO"],
+  "same_checkpoint_true_zero": true,
+  "projector": "Linear16x16(bias_false)-SiLU-Linear16x16(bias_false)",
+  "initial_gate": 0.1,
+  "base_cpfm": "B14CPFM frozen",
+  "base_r": "ReparamOnly ZP_FIT refit",
+  "p_source": "ProgressionCondition DeltaEncoder ZP_FIT refit",
+  "release_weight_format": "architecture_version and tensor state_dict only"
+}
