@@ -1,0 +1,23 @@
+{
+  "default_target_horizon": 1,
+  "experimental_target_horizon": 2,
+  "experimental_status": "not selected",
+  "selected_configuration": "S2 TEACHER_LIGHT + M0 MASKED_MEAN + H1",
+  "architecture_changed": false,
+  "s2_weights": {
+    "teacher_mse": 0.25,
+    "teacher_cos": 0.05,
+    "delta_mse": 1.2,
+    "delta_cos": 0.3,
+    "compatibility": 0.1
+  },
+  "strict_matching": "Both arms use identical prefix F_0..F_k and require k+2<=L",
+  "target": "F_(k+h)-F_k; fixed h=1 or experimental h=2",
+  "query_metadata": "query_date=endpoint date; annual_index=k+h; original query encoder semantics",
+  "teacher": "Frozen Bridge(before, endpoint_feature, query_h)",
+  "compatibility": "Frozen Bridge(before, F_k, query_h)",
+  "checkpoint_selection": "Patient-macro 0.5*(cos(P,H1)+cos(P,H2)); neutral TUNE only; exact ties earlier epoch",
+  "balanced_score_is_training_loss": false,
+  "replacement_weights": [],
+  "clinical_validation_claim": false
+}
