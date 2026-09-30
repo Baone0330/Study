@@ -1,0 +1,29 @@
+{
+  "release_type": "development_only_research_candidate",
+  "candidate_arm": "S2",
+  "new_loss_types": 0,
+  "architecture_changed": false,
+  "forward_changed": false,
+  "pooling_changed": false,
+  "coefficient_sum": 1.90,
+  "arms": {
+    "S0": {"teacher_mse": 1.00, "teacher_cos": 0.20, "delta_mse": 0.50, "delta_cos": 0.10, "compatibility": 0.10},
+    "S1": {"teacher_mse": 0.50, "teacher_cos": 0.10, "delta_mse": 1.00, "delta_cos": 0.20, "compatibility": 0.10},
+    "S2": {"teacher_mse": 0.25, "teacher_cos": 0.05, "delta_mse": 1.20, "delta_cos": 0.30, "compatibility": 0.10},
+    "S3": {"teacher_mse": 0.50, "teacher_cos": 0.10, "delta_mse": 1.10, "delta_cos": 0.20, "compatibility": 0.00}
+  },
+  "model_seeds": [42, 3407, 2026],
+  "optimizer": "AdamW",
+  "learning_rate": 0.002,
+  "weight_decay": 0.0001,
+  "batch_size": 128,
+  "gradient_clip_norm": 1.0,
+  "scheduler": null,
+  "full_development_epoch_policy": "per-seed median of candidate development cross-fit best epochs, frozen before full fitting",
+  "full_development_epochs": {"42": 48, "3407": 54, "2026": 37},
+  "weights_directory": "weights/trajectory_supervision_v1",
+  "weights_format": "raw tensor-only state_dict; no optimizer or patient objects",
+  "independent_validation": false,
+  "clinical_validation": false,
+  "default_inference_weights_replaced": false
+}
