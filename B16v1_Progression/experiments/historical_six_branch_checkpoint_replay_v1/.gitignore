@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+*private*
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.parquet
+*.jsonl
+*.xlsx
+*.png
+*.jpg
+*.dcm
+*.log

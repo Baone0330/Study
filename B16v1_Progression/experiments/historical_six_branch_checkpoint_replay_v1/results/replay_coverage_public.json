@@ -1,0 +1,53 @@
+{
+  "identity": "HISTORICAL_FIXED_CLIMATV2_INTERNAL_VAL_SIX_BRANCH_REPLAY",
+  "actual_checkpoint_forwards": 18,
+  "expected_checkpoint_forwards": 18,
+  "completed_ensembles": 6,
+  "six_decimal_reference_match_branches": 6,
+  "actual_original_seeds": {
+    "REAL_ONLY": [
+      42,
+      3407,
+      2026
+    ],
+    "FULL_B16V1": [
+      42,
+      3407,
+      2026
+    ],
+    "REMOVE_CPFM_PLAIN_SD": [
+      42,
+      3407,
+      2026
+    ],
+    "HISTORY_ONLY": [
+      42,
+      3407,
+      2026
+    ],
+    "TEMPORAL_ONLY": [
+      42,
+      3407,
+      2026
+    ],
+    "B16V1_PLUS_ORIGINAL_PROGRESSION": [
+      42,
+      3407,
+      2026
+    ]
+  },
+  "Val_N": 189,
+  "HT0": 131,
+  "HT1": 58,
+  "new_training_steps": 0,
+  "new_generation_images": 0,
+  "checksum_workflow": 0,
+  "private_patient_records_published": 0,
+  "original_checkpoint_files_published": 0,
+  "protocol_scope": "Historical internal Val; not independent Test or new strict protocol",
+  "max_seed_probability_difference_from_archive": 1.3709068298339844e-06,
+  "all_patient_probabilities_bit_exact": false,
+  "anonymous_unit_tests": 9,
+  "controlled_server_unit_tests": "PASS",
+  "source_metadata_postflight": "PASS"
+}

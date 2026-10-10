@@ -1,0 +1,28 @@
+# Replace every placeholder with YOUR legally accessible ORIGINAL historical assets.
+# Never commit the completed private YAML. Copy it OUTSIDE this repository.
+identity: HISTORICAL_FIXED_CLIMATV2_INTERNAL_VAL_SIX_BRANCH_REPLAY
+device: cuda
+batch_size: 4
+dtype: fp32
+expected_val: {N: 189, HT0: 131, HT1: 58}
+model_runner: "<ORIGINAL_FIXEDK6_RUNNER_SNAPSHOT>"
+model_root: "<ORIGINAL_CLIMATV2_SOURCE_ROOT>"
+network_yaml: "<ORIGINAL_PROG_HT_YAML>"
+historical_model_config: "<ORIGINAL_RESOLVED_MODEL_CONFIG_JSON>"
+historical_reference: "<THIS_PACKAGE_CONFIGS_HISTORICAL_METRICS_REFERENCE_JSON>"
+python_paths: ["<ORIGINAL_CLIMATV2_SOURCE_ROOT>", "<ORIGINAL_HELPER_MODULE_DIRECTORY>"]
+# All six full definitions are required. This is deliberately NOT a runnable data fixture.
+branches:
+  - branch_id: REAL_ONLY
+    internal_name: g1a
+    seeds: [42, 3407, 2026]
+    root: "<ORIGINAL_EXPERIMENT1_ROOT>"
+    val_manifest: "<ORIGINAL_SHARED_VAL_SLOT_MANIFEST_CSV>"
+    cohort_manifest: "<ORIGINAL_VAL_COHORT_CSV>"
+    eval_script: "<ORIGINAL_EXPERIMENT1_EVALUATION_SCRIPT>"
+    metric_function: best_youden
+    metric_call: csv
+    matmul_allow_tf32: false
+    upstream_variant: NONE
+    upstream_config: null
+# Complete the remaining five branches from branch_names.yaml and the provenance guide.

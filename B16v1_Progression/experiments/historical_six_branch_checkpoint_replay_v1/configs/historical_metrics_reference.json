@@ -1,0 +1,8 @@
+{
+  "REAL_ONLY": {"ROC_AUC": 0.763885, "PR_AUC": 0.624627, "Accuracy": 0.751323, "Sensitivity": 0.655172, "Specificity": 0.793893, "F1": 0.617886, "Val_N": 189},
+  "FULL_B16V1": {"ROC_AUC": 0.836141, "PR_AUC": 0.715742, "Accuracy": 0.783069, "Sensitivity": 0.706897, "Specificity": 0.816794, "F1": 0.666667, "Val_N": 189},
+  "REMOVE_CPFM_PLAIN_SD": {"ROC_AUC": 0.846802, "PR_AUC": 0.753492, "Accuracy": 0.798942, "Sensitivity": 0.724138, "Specificity": 0.832061, "F1": 0.688525, "Val_N": 189},
+  "HISTORY_ONLY": {"ROC_AUC": 0.833377, "PR_AUC": 0.717396, "Accuracy": 0.767196, "Sensitivity": 0.810345, "Specificity": 0.748092, "F1": 0.681159, "Val_N": 189},
+  "TEMPORAL_ONLY": {"ROC_AUC": 0.806528, "PR_AUC": 0.695574, "Accuracy": 0.814815, "Sensitivity": 0.637931, "Specificity": 0.893130, "F1": 0.678899, "Val_N": 189},
+  "B16V1_PLUS_ORIGINAL_PROGRESSION": {"ROC_AUC": 0.871808, "PR_AUC": 0.788794, "Accuracy": 0.830688, "Sensitivity": 0.793103, "Specificity": 0.847328, "F1": 0.741935, "Val_N": 189}
+}

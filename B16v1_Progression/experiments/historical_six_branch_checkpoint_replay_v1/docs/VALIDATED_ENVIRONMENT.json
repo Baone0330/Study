@@ -1,0 +1,21 @@
+{
+  "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "sklearn": "1.7.2",
+  "pandas": "2.3.3",
+  "numpy": "2.2.6",
+  "pyarrow": "24.0.0",
+  "PyYAML": "6.0.3",
+  "cuda_runtime": "12.8",
+  "cuda_arches": [
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "driver": "580.126.09",
+  "gpu": "NVIDIA GeForce RTX 5090"
+}

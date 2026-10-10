@@ -1,0 +1,6 @@
+REAL_ONLY: {display: REAL-only, historical_internal_name: g1a, matmul_allow_tf32: false}
+FULL_B16V1: {display: Full B16v1, historical_internal_name: g4, matmul_allow_tf32: false}
+REMOVE_CPFM_PLAIN_SD: {display: Remove CPFM / Plain-SD, historical_internal_name: plain_sd_cap2, matmul_allow_tf32: true}
+HISTORY_ONLY: {display: history_only, historical_internal_name: history_only, matmul_allow_tf32: false}
+TEMPORAL_ONLY: {display: temporal_only, historical_internal_name: temporal_only, matmul_allow_tf32: false}
+B16V1_PLUS_ORIGINAL_PROGRESSION: {display: B16v1+progression, historical_internal_name: progression, matmul_allow_tf32: false}
