@@ -1,0 +1,12 @@
+claim,evidence,status,limitation
+18 selected-best checkpoints were independently replayed in the preceding stage,Existing 18 reload QA/status plus previous final status,SUPPORTED,This stage does not repeat those forwards
+All six historical ensembles match six-decimal reference metrics,Existing SIX_BRANCH_ACTUAL_VS_REFERENCE table,SUPPORTED,Not bit-exact equality of all patient probabilities
+Original Progression uses upstream training seed 20260921,Original encoder config.training.seed and trainer constant,SUPPORTED,Different from downstream seeds 42/3407/2026
+Original Progression is highest on this six-branch internal Val ROC-AUC/AP,Table01 all six branches,OBSERVED,Not independent clinical efficacy
+Plain-SD is above Full,Table01/Table02,OBSERVED,Do not hide; no isolated CPFM conclusion
+Plain-SD is a single-factor CPFM removal,Actual historical generic-prompt route disables history and B16 condition,NOT_SUPPORTED,Several paths change simultaneously
+These results establish independent external or Official Test validity,No independent Test in historical replay,NOT_SUPPORTED,Historical internal Val only
+Generation improves clinical pathology realism,No new medical visual or pathology assessment in this stage,NOT_EVALUATED,No patient image publication
+Public code contains the original private clinical checkpoint weights,Public release excludes model weights,FALSE,User must supply their authorized local assets
+Later Strict/Clean protocol is equivalent to this historical table,"Separate versions, sources and cohorts",FALSE,Different protocol results cannot be pooled
+Original P16 adapter equals B14 CPFM,"Source shows Linear(64,16)+tanh followed by a separate B14 controller",FALSE,Separate module identities

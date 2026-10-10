@@ -1,0 +1,76 @@
+{
+  "agent_visual_review": "PASS",
+  "human_author_review": "NOT_RUN",
+  "clinical_expert_review": "NOT_RUN",
+  "reviewed_utc": "2026-10-10 10:25:45 UTC",
+  "backend": "Python/matplotlib; actual PNG inspection",
+  "figures": [
+    {
+      "figure": "Fig01",
+      "actual_final_render_seen": true,
+      "clipping_and_overlap": "PASS",
+      "labels_and_route_semantics": "PASS",
+      "scope": "Nonmedical architecture or aggregate result diagram"
+    },
+    {
+      "figure": "Fig02",
+      "actual_final_render_seen": true,
+      "clipping_and_overlap": "PASS",
+      "labels_and_route_semantics": "PASS",
+      "scope": "Nonmedical architecture or aggregate result diagram"
+    },
+    {
+      "figure": "Fig03",
+      "actual_final_render_seen": true,
+      "clipping_and_overlap": "PASS",
+      "labels_and_route_semantics": "PASS",
+      "scope": "Nonmedical architecture or aggregate result diagram"
+    },
+    {
+      "figure": "Fig04",
+      "actual_final_render_seen": true,
+      "clipping_and_overlap": "PASS",
+      "labels_and_route_semantics": "PASS",
+      "scope": "Nonmedical architecture or aggregate result diagram"
+    },
+    {
+      "figure": "Fig05",
+      "actual_final_render_seen": true,
+      "clipping_and_overlap": "PASS",
+      "labels_and_route_semantics": "PASS",
+      "scope": "Nonmedical architecture or aggregate result diagram"
+    },
+    {
+      "figure": "Fig06",
+      "actual_final_render_seen": true,
+      "clipping_and_overlap": "PASS",
+      "labels_and_route_semantics": "PASS",
+      "scope": "Nonmedical architecture or aggregate result diagram"
+    },
+    {
+      "figure": "Fig07",
+      "actual_final_render_seen": true,
+      "clipping_and_overlap": "PASS",
+      "labels_and_route_semantics": "PASS",
+      "scope": "Nonmedical architecture or aggregate result diagram"
+    },
+    {
+      "figure": "Fig08",
+      "actual_final_render_seen": true,
+      "clipping_and_overlap": "PASS",
+      "labels_and_route_semantics": "PASS",
+      "scope": "Nonmedical architecture or aggregate result diagram"
+    }
+  ],
+  "initial_findings_and_repairs": [
+    "Fig01 P16 input connections incomplete; repaired",
+    "Fig02 fusion bus arrow initially landed between layers; corrected to Concat64",
+    "Fig03 panel c title overlapped hook labels; moved hook rows down",
+    "Fig04 final architecture inspected; no clipping or problematic overlap",
+    "Fig07 largest AP difference label needed more right margin; increased common axis bound",
+    "Fig08 dark branch text needed higher contrast; selected contrast-safe text color"
+  ],
+  "clinical_images_reviewed": 0,
+  "metric_images_saved_locally": 0,
+  "manual_review_not_inferred_from_export_success": true
+}

@@ -1,0 +1,209 @@
+{
+  "identity": "HISTORICAL_FIXED_CLIMATV2_INTERNAL_VAL_SIX_BRANCH_REPLAY",
+  "Original_P16_seed": 20260921,
+  "source_only_classes": true,
+  "new_clinical_forward": 0,
+  "guards": {
+    "train_true_calls": 0,
+    "optimizer_constructions": 0,
+    "backward_calls": 0,
+    "download_attempts": 0
+  },
+  "F16": {
+    "input": 14,
+    "image_statistics": 8,
+    "report_counts": 6,
+    "reports_in_this_generation": "zeros",
+    "projection": [
+      14,
+      32,
+      16
+    ],
+    "normalization": "LayerNorm(32)",
+    "activation": "GELU",
+    "pool": "mean over all images in each set",
+    "independent_before_after": true
+  },
+  "query": {
+    "input": 9,
+    "projection": [
+      9,
+      24,
+      16
+    ],
+    "normalization": "LayerNorm(24)",
+    "activation": "GELU"
+  },
+  "bridge": {
+    "concat": 48,
+    "projection": [
+      48,
+      32
+    ],
+    "condition": [
+      32,
+      16
+    ],
+    "condition_activation": "tanh",
+    "scale_metadata_consumed_by_hook": false
+  },
+  "P16": {
+    "delta_projection": [
+      16,
+      32,
+      16
+    ],
+    "masked_mean": 16,
+    "concat": 64,
+    "fusion": [
+      64,
+      128,
+      64
+    ],
+    "adapter": [
+      64,
+      16
+    ],
+    "output": "tanh",
+    "losses": "MSE(c,teacher)+0.2 cosine(c,teacher)+0.5 MSE(p,target_delta)+0.1 cosine(p,target_delta)+0.1 MSE(c,old)",
+    "zero_delta_no_valid_history": "masked progression zero; fused condition generally nonzero"
+  },
+  "CPFM": {
+    "condition": 16,
+    "time": 8,
+    "layer_embedding": 8,
+    "history_summary": 16,
+    "current_summary": 16,
+    "history_summary_runtime": "zero",
+    "magnitude_trunk": [
+      32,
+      128,
+      128
+    ],
+    "direction_trunk": [
+      64,
+      128,
+      128
+    ],
+    "patient_projection": [
+      32,
+      32,
+      16
+    ],
+    "patient_trunk": [
+      64,
+      64
+    ],
+    "hook_input_channels": [
+      320,
+      320,
+      640,
+      1280
+    ],
+    "hook_locations": "unet.down_blocks[i].resnets[0] forward pre hook for i=0..3",
+    "zero_identity": "zero-referenced directions plus zero condition magnitude mask; x unchanged when c=0",
+    "exact_hook": "u=(x-meanHW)/stdHW; y=x+sigmoid(layer_scale)*(((1+gamma)*u+beta)-u)",
+    "patient_residual_scale": 0.25,
+    "raw_gamma_beta_heads_used_for_final_direction": false
+  },
+  "SD15": {
+    "_class_name": "UNet2DConditionModel",
+    "_diffusers_version": "0.6.0",
+    "act_fn": "silu",
+    "attention_head_dim": 8,
+    "block_out_channels": [
+      320,
+      640,
+      1280,
+      1280
+    ],
+    "center_input_sample": false,
+    "cross_attention_dim": 768,
+    "down_block_types": [
+      "CrossAttnDownBlock2D",
+      "CrossAttnDownBlock2D",
+      "CrossAttnDownBlock2D",
+      "DownBlock2D"
+    ],
+    "downsample_padding": 1,
+    "flip_sin_to_cos": true,
+    "freq_shift": 0,
+    "in_channels": 4,
+    "layers_per_block": 2,
+    "mid_block_scale_factor": 1,
+    "norm_eps": 1e-05,
+    "norm_num_groups": 32,
+    "out_channels": 4,
+    "sample_size": 64,
+    "up_block_types": [
+      "UpBlock2D",
+      "CrossAttnUpBlock2D",
+      "CrossAttnUpBlock2D",
+      "CrossAttnUpBlock2D"
+    ]
+  },
+  "runtime": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "diffusers": "0.39.0.dev0",
+    "device": "CPU",
+    "autograd_enabled": false,
+    "gpu_model_loads": 0,
+    "clinical_forwards": 0
+  },
+  "CLIMATv2": {
+    "actual_class": "CLIMATv2HTWrapper",
+    "T": 6,
+    "K": 6,
+    "max_position_capacity": 7,
+    "view_pool": "masked mean feature maps, not spatial GAP",
+    "image_shape": "[B,6,V,3,256,256]",
+    "per_view_features": "[Nv,512,8,8]",
+    "exam_patches": "[Ne,64,512]",
+    "radiologist_dim": 512,
+    "metadata_dim": 64,
+    "concat_dim": 576,
+    "prognosis_dim": 576,
+    "heads": 4,
+    "depth": 1,
+    "rad_mlp_hidden": 256,
+    "GP_mlp_hidden": 64,
+    "prognosis_mlp_hidden": 256,
+    "patient_head": "LayerNorm576 -> Linear576,288 -> GELU -> Linear288,5 -> Linear5,2 -> softmax positive",
+    "report_content_active": false,
+    "time_content_active": false,
+    "meta_input": "8 zero report projection + 2 zero time + 1 zero presence",
+    "constant_metadata_GP_active": true,
+    "standard_resnet_GAP_FC_active": false,
+    "sequence_cls": "wrapper CLS + learned ordered positions + masked original prognosis transformer"
+  },
+  "component_parameters": {
+    "F16": 5421,
+    "Original_P16": 19008,
+    "B14CPFM": 1707072,
+    "CLIMATv2": 15640702
+  },
+  "source_map": {
+    "F16": "longitudinal_condition.py:152-186",
+    "query": "longitudinal_condition.py:189-220",
+    "bridge": "longitudinal_condition.py:223-252",
+    "P16": "b16v1_progression_train_v1.py:52-78",
+    "P16_losses": "b16v1_progression_train_v1.py:192-201",
+    "P16_generation": "b16v1_progression_generator_v1.py:66-88",
+    "CPFM": "run_v17_19.py:159-247",
+    "hooks": "run_v17_19.py:250-298",
+    "native_fixed_input": "fixedk6_matched_runner_source_snapshot.py:319-344",
+    "CLIMAT_wrapper": "climatv2_ht_wrapper.py:87-233",
+    "FeaT": "climatv2.py:523-700",
+    "metadata_mlp": "climatv2.py:361-369",
+    "ResNet18": "torchvision/models/resnet.py:59-283",
+    "SD_interfaces": "local frozen UNet/VAE config plus installed diffusers ResnetBlock2D sources; original historical library revision not recovered"
+  },
+  "unverified": [
+    "Historical installed diffusers exact revision NOT_RECOVERED",
+    "Medical LoRA per-layer ranks NOT_AUDITED",
+    "Full SD/LoRA weight schema NOT_LOADED_THIS_STAGE",
+    "Independent clinical external Test NOT_RUN",
+    "New patient image quality/medical realism NOT_EVALUATED"
+  ]
+}

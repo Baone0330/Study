@@ -1,0 +1,5 @@
+item,observed,resolved,authority
+Progression generic config flags,history_image_path_active/query_time_condition_active false in inherited generic config,"Dedicated config, make_condition override and runtime module audit have history/time/P16 active","b16v1_progression_generator_v1.py:35-89,102-112"
+Condition scale,computed and logged in frozen bridge,not read by generate_one holder or B14Hooks; metadata-only,"b16_longitudinal_only_generator.py:354,364-367; run_v17_19.py:279-290"
+ResNet GAP/FC,present in torchvision object and state,not called by original forward_img; 8x8 maps go to FeaT,climatv2.py:371-388; compat.py:127
+SD library source version,"current installed diffusers 0.39.0.dev0, model config serialization 0.6.0",interface/source evidence only; no claim that this library commit is the historic generation revision,installed library inventory and frozen SD config

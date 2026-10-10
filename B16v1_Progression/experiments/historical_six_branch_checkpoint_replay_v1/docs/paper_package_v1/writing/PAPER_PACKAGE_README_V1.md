@@ -1,0 +1,13 @@
+# 历史六分支论文材料使用说明
+
+本包使用上一阶段真实18 checkpoint重放的六行完整精度汇总，身份为HISTORICAL_FIXED_CLIMATV2_INTERNAL_VAL_SIX_BRANCH_REPLAY。图表整理不是新实验。
+
+主论点：指定旧权重可重复计算；Original Progression是历史六分支内部Val的ROC-AUC/AP最高观察条件；这不证明外部临床泛化或独立P16因果贡献。
+
+Table01完整六行主结果；Table02由Table01自动计算五项描述性比较；Table03私有权重locator只留服务器，公共版仅语义分支、种子和原best epoch；Table04记录源码/CPU严格加载模块结构；Table05记录陈述与证据边界。Fig01–04为细结构，Fig05–07为既有聚合结果，Fig08为前阶段真实重放证据流程。所有图提供独立源CSV、caption、绘图代码、可编辑SVG和600dpi RGB PNG；PDF为辅助矢量输出。
+
+本包不含医学图板、患者级概率、原始报告或私有权重。Fig09真实ROC/PR曲线和Fig10医学示例板未生成，均为可选项；不为凑图新增患者级数据读取。结构图不代表新增生成结果。仅图形程序化QA成功不能叫人工验收，实际视觉审阅记录见QA文件。
+
+术语：Full B16v1是本历史表的纵向-only路线；Original P16是seed20260921的原版，不是S2/Clean；P16 cpfm_adapter不是B14CPFM；Plain-SD不是纯单因素移除CPFM；AP为average_precision_score。三seedensemble是概率均值，不是AUC均值。所有论述以这套术语一致贯穿。
+
+写作规划：Methods解释阶段分离与实际模块；Results陈述完整排序和阈值权衡；Discussion保留Plain-SD高于Full及历史内部Val限制。作者投稿前仍需核验期刊格式、真实引用、临床素材授权与资产许可；本包不是外部临床验证或部署认证。

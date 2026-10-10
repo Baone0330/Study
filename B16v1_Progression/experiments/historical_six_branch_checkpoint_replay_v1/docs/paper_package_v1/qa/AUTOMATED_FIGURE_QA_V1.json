@@ -1,0 +1,180 @@
+{
+  "status": "AUTO_PASS_MANUAL_NOT_RUN",
+  "figure_count": 8,
+  "figures": [
+    {
+      "figure": "Fig01_Historical_Architecture",
+      "auto_status": "PASS",
+      "visual_review": "NOT_RUN",
+      "png_mode": "RGB",
+      "png_pixels": [
+        4322,
+        4251
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "editable_SVG_text_elements": 59,
+      "width_mm": 183,
+      "height_mm": 180.0,
+      "source_data": "Fig01_source_data.csv",
+      "label_bounds": "PASS",
+      "minimum_font_pt": 5.5,
+      "font_fit_adjustments": 0
+    },
+    {
+      "figure": "Fig02_Original_Progression_Detail",
+      "auto_status": "PASS",
+      "visual_review": "NOT_RUN",
+      "png_mode": "RGB",
+      "png_pixels": [
+        4322,
+        4015
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "editable_SVG_text_elements": 45,
+      "width_mm": 183,
+      "height_mm": 170.0,
+      "source_data": "Fig02_source_data.csv",
+      "label_bounds": "PASS",
+      "minimum_font_pt": 5.7,
+      "font_fit_adjustments": 0
+    },
+    {
+      "figure": "Fig03_B14_CPFM_UNet_Injection",
+      "auto_status": "PASS",
+      "visual_review": "NOT_RUN",
+      "png_mode": "RGB",
+      "png_pixels": [
+        4322,
+        4488
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "editable_SVG_text_elements": 77,
+      "width_mm": 183,
+      "height_mm": 190.0,
+      "source_data": "Fig03_source_data.csv",
+      "label_bounds": "PASS",
+      "minimum_font_pt": 5.5,
+      "font_fit_adjustments": 0
+    },
+    {
+      "figure": "Fig04_CLIMATv2_Multiview_K6",
+      "auto_status": "PASS",
+      "visual_review": "NOT_RUN",
+      "png_mode": "RGB",
+      "png_pixels": [
+        4322,
+        4488
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "editable_SVG_text_elements": 70,
+      "width_mm": 183,
+      "height_mm": 190.0,
+      "source_data": "Fig04_source_data.csv",
+      "label_bounds": "PASS",
+      "minimum_font_pt": 5.7,
+      "font_fit_adjustments": 0
+    },
+    {
+      "figure": "Fig05_Six_Branch_ROC_AP",
+      "auto_status": "PASS",
+      "visual_review": "NOT_RUN",
+      "png_mode": "RGB",
+      "png_pixels": [
+        4322,
+        2645
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "editable_SVG_text_elements": 41,
+      "width_mm": 183,
+      "height_mm": 112.0,
+      "source_data": "Fig05_source_data.csv",
+      "label_bounds": "PASS",
+      "minimum_font_pt": 5.65,
+      "font_fit_adjustments": 0
+    },
+    {
+      "figure": "Fig06_Threshold_Metric_Comparison",
+      "auto_status": "PASS",
+      "visual_review": "NOT_RUN",
+      "png_mode": "RGB",
+      "png_pixels": [
+        4322,
+        3968
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "editable_SVG_text_elements": 81,
+      "width_mm": 183,
+      "height_mm": 168.0,
+      "source_data": "Fig06_source_data.csv",
+      "label_bounds": "PASS",
+      "minimum_font_pt": 5.65,
+      "font_fit_adjustments": 0
+    },
+    {
+      "figure": "Fig07_Descriptive_Differences",
+      "auto_status": "PASS",
+      "visual_review": "NOT_RUN",
+      "png_mode": "RGB",
+      "png_pixels": [
+        4322,
+        2645
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "editable_SVG_text_elements": 30,
+      "width_mm": 183,
+      "height_mm": 112.0,
+      "source_data": "Fig07_source_data.csv",
+      "label_bounds": "PASS",
+      "minimum_font_pt": 5.7,
+      "font_fit_adjustments": 0
+    },
+    {
+      "figure": "Fig08_Replay_Evidence_Workflow",
+      "auto_status": "PASS",
+      "visual_review": "NOT_RUN",
+      "png_mode": "RGB",
+      "png_pixels": [
+        4322,
+        3425
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "editable_SVG_text_elements": 57,
+      "width_mm": 183,
+      "height_mm": 145.0,
+      "source_data": "Fig08_source_data.csv",
+      "label_bounds": "PASS",
+      "minimum_font_pt": 5.7,
+      "font_fit_adjustments": 0
+    }
+  ],
+  "wall_seconds": 7.885007619857788,
+  "no_medical_images": true,
+  "new_clinical_forward": 0,
+  "confidence_intervals_computed": false,
+  "metric_axes": "0\u20131",
+  "backend": "Python/matplotlib"
+}
