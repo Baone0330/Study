@@ -1,0 +1,9 @@
+claim,evidence,level,boundary
+Prior natural-image distances favored ON,prior completed quality CSV only; not recalculated,PREVIOUS_STATISTICAL,domain-biased features; not clinical realism
+All prior flags reproduce exactly,31740 current decoded images;0 mismatches,CURRENT_TECHNICAL,reproducibility does not establish anatomical specificity
+ON has more line/cross candidates,full primary9270pairs;860patient paired bootstrap,CURRENT_TECHNICAL,"possible interface, UI, acquisition or generated geometry; origins unobserved"
+Candidate positions quantified,whole512 geometric zones; multi-zone union retained,CURRENT_GEOMETRIC,not gland segmentation
+Fixed review assets prepared,72core+48stratified pairs;36expert candidate pairs,ENGINEERING_PREPARATION,no image prettiness selection; no actual viewing
+Visible thyroid structure or true artifact,NOT_RUN,NO_HUMAN_REFERENCE,technical candidates cannot fill observer fields
+Clinical authenticity,NOT_ESTABLISHED,NO_EXPERT_EVIDENCE,"no doctors, no scores, no kappa or ICC"
+Prediction benefit or disease information,NOT_EVALUATED_THIS_TASK,OUT_OF_SCOPE,"no new HT evaluation/Test access, no quality-to-AUC inference"

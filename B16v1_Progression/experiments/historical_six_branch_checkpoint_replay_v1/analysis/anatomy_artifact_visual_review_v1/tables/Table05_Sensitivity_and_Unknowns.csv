@@ -1,0 +1,11 @@
+item,status,value,boundary
+regions,TECHNICAL_ONLY,outer26; center102:410; intermediate; multizone,position is not thyroid ROI; no mm scale
+overlapping_regions,RETAINED,segments can cross regions; crosses union both arms,region proportions need not sum to one
+cross_heuristic,ORIGINAL_DEFINITION_REUSED,average coordinates and projected segment extents,not guaranteed exact physical intersection; multiple candidates per image
+resize,FIXED,whole512 PIL bilinear; fixed center crop192:320,resampling/aspect ratio and acquisition composition can affect counts
+48_case_weights,NOT_ESTABLISHED,four strata with distinct-patient priority,not a prevalence estimator; no quota filling duplicates
+four_strata_residual,RETAINED,420 OFF-only pairs,not silently forced intoS4 or removed
+pixel_visual_review,NOT_RUN,zero actual observers,"no observed false positives, anatomy or visibility grades"
+expert_scale_examples,NOT_RUN,no nonpatient example images or clinician scale training,prepared verbal anchors alone do not establish validated reliability
+public_medical_images,NOT_APPROVED,0,private storage does not prove PHI clearance
+clinical_or_future_truth,NOT_ESTABLISHED,no verified ROI/pathology/future-year matched truth,no Dice/IoU or clinical quality certification

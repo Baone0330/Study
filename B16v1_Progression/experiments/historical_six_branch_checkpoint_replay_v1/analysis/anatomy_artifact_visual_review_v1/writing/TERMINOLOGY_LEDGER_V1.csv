@@ -1,0 +1,5 @@
+term_en,term_zh,boundary
+technical line/cross candidate,技术直线/十字候选,not clinically confirmed artifact
+geometric central field,几何中心区域,not thyroid ROI
+NOT_REVIEWED,尚未实际观察,distinct from observed UNCERTAIN
+clinician subjective rating,医生主观评分,only actual qualified approved observers; not certification

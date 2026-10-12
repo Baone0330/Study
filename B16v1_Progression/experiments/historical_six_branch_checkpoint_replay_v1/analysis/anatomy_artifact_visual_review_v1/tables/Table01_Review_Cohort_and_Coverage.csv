@@ -1,0 +1,12 @@
+cohort,pairs,images,nodes,patients,exams,meaning,all_queue_pairs,eligible_pairs
+FULL_PAIRED_PRIMARY,9270.0,18540,1545.0,860.0,,"two arms, no population filtering",,
+REAL_NATIVE_REFERENCE,,13200,,859.0,3154.0,"historical views, NOT target-year truth",,
+CORE_FIXED12,72.0,144,12.0,12.0,,"inherited nodes, all six indices",,
+FLAG_STRATIFIED,48.0,96,48.0,48.0,,one distinct patient per pair; no calibrated population weights,,
+CORE_PLUS_STRATIFIED,120.0,240,60.0,60.0,,zero patient/pair overlap,,
+CLINICIAN_CANDIDATES_SUBSET_OF_CORE,36.0,72,12.0,12.0,,"indices0,2,5; zero actual expert ratings",,
+UNASSIGNED_OFF_ONLY_FULL_QUEUE_RETAINED,420.0,840,,,,not covered by four sampling strata; retained in full-queue analysis,,
+S1,12.0,24,12.0,12.0,,NOT_ESTABLISHED_NONUNIFORM_DISTINCT_PATIENT_PRIORITY,671.0,668.0
+S2,12.0,24,12.0,12.0,,NOT_ESTABLISHED_NONUNIFORM_DISTINCT_PATIENT_PRIORITY,2914.0,2893.0
+S3,12.0,24,12.0,12.0,,NOT_ESTABLISHED_NONUNIFORM_DISTINCT_PATIENT_PRIORITY,4901.0,4858.0
+S4,12.0,24,12.0,12.0,,NOT_ESTABLISHED_NONUNIFORM_DISTINCT_PATIENT_PRIORITY,364.0,361.0

@@ -1,0 +1,3 @@
+metric,pairs,both_proxy_true,ON_only_proxy_true,OFF_only_proxy_true,both_proxy_false,meaning,reference_annotation_status,TP,FP,TN,FN
+long_line_flag,9270,5357,3129,420,364,"joint machine proxy status, NOT TP/FP/TN/FN versus anatomy or human truth",NOT_RUN,,,,
+cross_proxy_flag,9270,1,670,1,8598,"joint machine proxy status, NOT TP/FP/TN/FN versus anatomy or human truth",NOT_RUN,,,,

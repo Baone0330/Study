@@ -1,0 +1,17 @@
+{
+  "status": "ENGINEERING_COMPLETED_WITH_MEDICAL_REVIEW_LIMITATIONS",
+  "medical_review": "NOT_RUN",
+  "clinicians": 0,
+  "actual_ratings": 0,
+  "technical_localization_images": 31740,
+  "original_flag_mismatches": 0,
+  "patient_bootstrap_repeats": 2000,
+  "medical_pixels_public": 0,
+  "source_protection": "PASS",
+  "nonmedical_visual_QA": "PASS_AFTER_ACTUAL_VIEW",
+  "new_training": 0,
+  "new_SD_sampling": 0,
+  "new_FID_KID": 0,
+  "test_access": 0,
+  "publication_provenance": "repository commit history"
+}

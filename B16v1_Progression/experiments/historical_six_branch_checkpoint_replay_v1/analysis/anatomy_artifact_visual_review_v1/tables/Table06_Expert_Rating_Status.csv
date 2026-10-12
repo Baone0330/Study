@@ -1,0 +1,2 @@
+status,actual_clinicians,actual_rated_images,candidate_pairs,candidate_images,candidate_nodes,candidate_patients,mean_score,paired_delta,ci_low,ci_high,kappa,icc,reason
+NOT_RUN,0,0,36,72,12,12,,,,,,,"No authentic qualified approved local clinician ratings; empty cells are missing, not zero"

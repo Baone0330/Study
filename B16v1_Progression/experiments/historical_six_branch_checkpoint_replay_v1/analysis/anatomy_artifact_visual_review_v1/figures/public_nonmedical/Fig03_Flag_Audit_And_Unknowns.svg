@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.4pt" height="266.4pt" viewBox="0 0 518.4 266.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-12T21:23:41.899171</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 266.4 
+L 518.4 266.4 
+L 518.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 23.496221 99.868861 
+L 243.828014 99.868861 
+Q 249.976809 99.868861 249.976809 96.744067 
+L 249.976809 31.644187 
+Q 249.976809 28.519393 243.828014 28.519393 
+L 23.496221 28.519393 
+Q 17.347427 28.519393 17.347427 31.644187 
+L 17.347427 96.744067 
+Q 17.347427 99.868861 23.496221 99.868861 
+z
+" clip-path="url(#pee16f01f33)" style="fill: #e7f2f3; stroke: #506576; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 284.819976 99.868861 
+L 494.903779 99.868861 
+Q 501.052573 99.868861 501.052573 96.744067 
+L 501.052573 31.644187 
+Q 501.052573 28.519393 494.903779 28.519393 
+L 284.819976 28.519393 
+Q 278.671182 28.519393 278.671182 31.644187 
+L 278.671182 96.744067 
+Q 278.671182 99.868861 284.819976 99.868861 
+z
+" clip-path="url(#pee16f01f33)" style="fill: #f4e8e5; stroke: #506576; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 23.496221 214.44465 
+L 243.828014 214.44465 
+Q 249.976809 214.44465 249.976809 211.319856 
+L 249.976809 141.011986 
+Q 249.976809 137.887191 243.828014 137.887191 
+L 23.496221 137.887191 
+Q 17.347427 137.887191 17.347427 141.011986 
+L 17.347427 211.319856 
+Q 17.347427 214.44465 23.496221 214.44465 
+z
+" clip-path="url(#pee16f01f33)" style="fill: #eaeff5; stroke: #506576; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 284.819976 214.44465 
+L 494.903779 214.44465 
+Q 501.052573 214.44465 501.052573 211.319856 
+L 501.052573 141.011986 
+Q 501.052573 137.887191 494.903779 137.887191 
+L 284.819976 137.887191 
+Q 278.671182 137.887191 278.671182 141.011986 
+L 278.671182 211.319856 
+Q 278.671182 214.44465 284.819976 214.44465 
+z
+" clip-path="url(#pee16f01f33)" style="fill: #fbeee1; stroke: #506576; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #203340" transform="translate(69.977274 56.599533)">31,740 current source reads</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #203340" transform="translate(55.971024 66.677565)">Original flag / count mismatches:0</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #203340" transform="translate(86.303836 76.755596)">Reproducibility: PASS</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #203340" transform="translate(318.209924 56.474377)">Human reference annotations:0</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #203340" transform="translate(344.508909 66.552408)">TP / FP / TN / FN: NA</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #203340" transform="translate(315.06344 76.63044)">Sensitivity / specificity: NOT_RUN</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #203340" transform="translate(67.093055 168.571327)">Full-pair machine joint counts</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #203340" transform="translate(65.706493 178.649358)">Both true / ON-only / OFF-only</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #203340" transform="translate(55.034461 188.72739)">Both false; NOT a confusion matrix</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #203340" transform="translate(313.782346 168.446171)">Candidate origin: NOT_REVIEWED</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #203340" transform="translate(309.935549 178.774515)">UI / interface / generated geometry</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #203340" transform="translate(326.975081 188.852546)">are competing explanations</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start" x="23.496221" y="252.983779" transform="rotate(-0 23.496221 252.983779)">Unknown false-positive rate is not zero; no candidate was removed.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pee16f01f33">
+   <rect x="3.00024" y="3.00024" width="512.39952" height="260.39952"/>
+  </clipPath>
+ </defs>
+</svg>

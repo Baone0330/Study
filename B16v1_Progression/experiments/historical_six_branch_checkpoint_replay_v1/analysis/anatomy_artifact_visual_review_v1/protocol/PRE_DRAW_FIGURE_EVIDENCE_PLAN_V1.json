@@ -1,0 +1,55 @@
+{
+  "backend": "Python",
+  "figures": [
+    {
+      "figure": "Fig01_Review_Design_and_Cohorts",
+      "conclusion": "fixed unequal scopes; no population case estimate",
+      "archetype": "study design",
+      "evidence_source": "Table01",
+      "review_risk": "different denominators",
+      "medical_pixels": false
+    },
+    {
+      "figure": "Fig02_Line_Cross_Proxy_and_Regions",
+      "conclusion": "measured proxy hits and geometric overlap",
+      "archetype": "bars",
+      "evidence_source": "Table03",
+      "review_risk": "not thyroid ROI; overlaps",
+      "medical_pixels": false
+    },
+    {
+      "figure": "Fig03_Flag_Audit_And_Unknowns",
+      "conclusion": "reproduced flags but no human reference",
+      "archetype": "status chart",
+      "evidence_source": "Table02",
+      "review_risk": "no fake TP FP",
+      "medical_pixels": false
+    },
+    {
+      "figure": "Fig04_Paired_Artifact_Difference",
+      "conclusion": "ON minus OFF changes detector response",
+      "archetype": "interval plots",
+      "evidence_source": "Table04",
+      "review_risk": "not medical improvement",
+      "medical_pixels": false
+    },
+    {
+      "figure": "Fig05_Visibility_Observation_Distribution",
+      "conclusion": "240 candidate images have no actual visibility observation",
+      "archetype": "missingness",
+      "evidence_source": "Table06",
+      "review_risk": "unreviewed is not uncertain",
+      "medical_pixels": false
+    },
+    {
+      "figure": "Fig06_Claim_Evidence_Limitations",
+      "conclusion": "technical and medical evidence separated",
+      "archetype": "evidence map",
+      "evidence_source": "Table07",
+      "review_risk": "no authenticity composite",
+      "medical_pixels": false
+    }
+  ],
+  "exports": "RGB600dpi PNG; editableSVG; embedded TrueType PDF",
+  "min_font_pt": 8
+}
