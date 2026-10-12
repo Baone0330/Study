@@ -1,0 +1,7 @@
+metric,status,reason
+clinical_expert_review,NOT_RUN,No expert review performed; score template remains empty
+medical_agent_visual_review,NOT_RUN,No task-specific authorization to transfer medical images
+thyroid_ROI_Dice_or_anatomy_score,NOT_AVAILABLE,No validated annotated thyroid ROI assets with applicable-domain provenance supplied
+FID_patient_CI,NOT_RUN,Resource-bounded omission frozen before scores; paired KID cluster CI computed
+target_year_reconstruction_accuracy,NOT_ESTABLISHED,REAL historical context is not query-year paired ground truth
+new_independent_HT_validation,NOT_RUN,This task is offline image quality evaluation only

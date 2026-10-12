@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "permutation_invariant_exact_estimators": true,
+  "negative_unbiased_KID_retained": true,
+  "paired_kernel_bootstrap_formula_matches_direct": true
+}

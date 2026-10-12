@@ -1,0 +1,6 @@
+term_en,term_zh,boundary
+real historical reference,真实历史参考,not query-year ground truth
+paired structural change,配对结构变化,not reconstruction accuracy
+artifact proxy,可疑伪影统计代理,not medical diagnosis
+natural-image feature distance,自然图像特征距离,not thyroid authenticity certification
+auxiliary historical route,历史辅助路线,not isolated CPFM effect

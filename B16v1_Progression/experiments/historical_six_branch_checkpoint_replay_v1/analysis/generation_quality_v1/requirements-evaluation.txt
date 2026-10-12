@@ -1,0 +1,11 @@
+# Existing compatible Torch/torchvision must be verified, not blindly replaced.
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+opencv-python==4.13.0.92
+Pillow==12.2.0
+matplotlib==3.10.9
+torch-fidelity==0.4.0
+lpips==0.1.4
+scikit-image==0.25.2
+pyarrow==24.0.0

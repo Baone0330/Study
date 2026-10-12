@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.4pt" height="331.2pt" viewBox="0 0 518.4 331.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-12T18:41:35.092388</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 331.2 
+L 518.4 331.2 
+L 518.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.934223 82.674122 
+L 251.514007 82.674122 
+Q 259.2 82.674122 259.2 77.79613 
+L 259.2 42.024182 
+Q 259.2 37.14619 251.514007 37.14619 
+L 20.934223 37.14619 
+Q 13.24823 37.14619 13.24823 42.024182 
+L 13.24823 77.79613 
+Q 13.24823 82.674122 20.934223 82.674122 
+z
+" clip-path="url(#pb75723ac9f)" style="fill: #e6f3f3; stroke: #556675; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 20.934223 129.828053 
+L 251.514007 129.828053 
+Q 259.2 129.828053 259.2 124.95006 
+L 259.2 89.178113 
+Q 259.2 84.30012 251.514007 84.30012 
+L 20.934223 84.30012 
+Q 13.24823 84.30012 13.24823 89.178113 
+L 13.24823 124.95006 
+Q 13.24823 129.828053 20.934223 129.828053 
+z
+" clip-path="url(#pb75723ac9f)" style="fill: #e6f3f3; stroke: #556675; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 20.934223 176.981983 
+L 251.514007 176.981983 
+Q 259.2 176.981983 259.2 172.10399 
+L 259.2 136.332043 
+Q 259.2 131.45405 251.514007 131.45405 
+L 20.934223 131.45405 
+Q 13.24823 131.45405 13.24823 136.332043 
+L 13.24823 172.10399 
+Q 13.24823 176.981983 20.934223 176.981983 
+z
+" clip-path="url(#pb75723ac9f)" style="fill: #e6f3f3; stroke: #556675; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 20.934223 224.135914 
+L 251.514007 224.135914 
+Q 259.2 224.135914 259.2 219.257921 
+L 259.2 183.485974 
+Q 259.2 178.607981 251.514007 178.607981 
+L 20.934223 178.607981 
+Q 13.24823 178.607981 13.24823 183.485974 
+L 13.24823 219.257921 
+Q 13.24823 224.135914 20.934223 224.135914 
+z
+" clip-path="url(#pb75723ac9f)" style="fill: #e6f3f3; stroke: #556675; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 284.819976 82.674122 
+L 494.903779 82.674122 
+Q 502.589772 82.674122 502.589772 77.79613 
+L 502.589772 35.520192 
+Q 502.589772 30.642199 494.903779 30.642199 
+L 284.819976 30.642199 
+Q 277.133983 30.642199 277.133983 35.520192 
+L 277.133983 77.79613 
+Q 277.133983 82.674122 284.819976 82.674122 
+z
+" clip-path="url(#pb75723ac9f)" style="fill: #f4ebe1; stroke: #556675; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 284.819976 141.210036 
+L 494.903779 141.210036 
+Q 502.589772 141.210036 502.589772 136.332043 
+L 502.589772 94.056106 
+Q 502.589772 89.178113 494.903779 89.178113 
+L 284.819976 89.178113 
+Q 277.133983 89.178113 277.133983 94.056106 
+L 277.133983 136.332043 
+Q 277.133983 141.210036 284.819976 141.210036 
+z
+" clip-path="url(#pb75723ac9f)" style="fill: #f4ebe1; stroke: #556675; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 284.819976 199.74595 
+L 494.903779 199.74595 
+Q 502.589772 199.74595 502.589772 194.867957 
+L 502.589772 152.592019 
+Q 502.589772 147.714026 494.903779 147.714026 
+L 284.819976 147.714026 
+Q 277.133983 147.714026 277.133983 152.592019 
+L 277.133983 194.867957 
+Q 277.133983 199.74595 284.819976 199.74595 
+z
+" clip-path="url(#pb75723ac9f)" style="fill: #f4ebe1; stroke: #556675; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="18.372226" y="21.114507" transform="rotate(-0 18.372226 21.114507)">Measured offline evidence</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172c3a" x="136.224115" y="62.393593" transform="rotate(-0 136.224115 62.393593)">Saved-pixel intervention response</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172c3a" x="136.224115" y="109.547524" transform="rotate(-0 136.224115 109.547524)">Natural-image feature distances</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172c3a" x="136.224115" y="156.701454" transform="rotate(-0 136.224115 156.701454)">Low-level technical texture proxies</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172c3a" x="136.224115" y="203.855385" transform="rotate(-0 136.224115 203.855385)">Within-node seed variation</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="284.819976" y="21.114507" transform="rotate(-0 284.819976 21.114507)">Not established by this study</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172c3a" x="389.861878" y="59.141598" transform="rotate(-0 389.861878 59.141598)">Certified thyroid anatomy / pathology</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172c3a" x="389.861878" y="117.677512" transform="rotate(-0 389.861878 117.677512)">Future target-year reconstruction</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #172c3a" x="389.861878" y="176.213425" transform="rotate(-0 389.861878 176.213425)">Independent HT prediction validation</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(23.496221 294.861729)">Expert review: NOT_RUN   |   Validated thyroid ROI: NOT_AVAILABLE</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'" transform="translate(23.496221 305.190072)">No authenticity composite score; no quality-based exclusion.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb75723ac9f">
+   <rect x="3.00024" y="3.00024" width="512.39952" height="325.19952"/>
+  </clipPath>
+ </defs>
+</svg>

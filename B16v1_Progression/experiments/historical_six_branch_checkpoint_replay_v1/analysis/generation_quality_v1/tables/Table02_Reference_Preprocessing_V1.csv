@@ -1,0 +1,12 @@
+item,value,meaning
+Native REAL unique views,13200,original native views; repeated LOCF slot copies not re-counted
+Native REAL unique exams,3154,"historical, not target-year ground truth"
+Native REAL patients,859,one generator patient has no native REAL slot reference
+Common patients,859,primary distribution support
+Balanced images per patient,2,"objective minimum native reference view count, capped at6; seed20261012"
+Texture scale,whole RGB512 PIL bilinear,resizing/aspect ratio may confound technical proxies; no anatomy ROI
+Feature encoder,torch-fidelity inception-v3-compat 0.4.0,2048 standard feature; native RGB grouped by dimensions; TF1-compatible internal299
+Feature value range,uint8 RGB; internal (x-128)/128,no histogram equalization or quality selection
+SSIM,BT.601 gray255; gaussian1.5; win11; population covariance,"paired change, not real-target reconstruction"
+LPIPS,"AlexNet v0.1; package0.1.4; RGB[-1,1]","offline calibrated perceptual change, not a medical authenticity score"
+KID,degree3 gamma1/2048 coef1;50 subsets512,MC SD is separate from2000 patient-cluster bootstrap CI

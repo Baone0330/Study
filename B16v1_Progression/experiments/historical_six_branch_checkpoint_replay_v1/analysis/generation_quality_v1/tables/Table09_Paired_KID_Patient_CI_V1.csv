@@ -1,0 +1,2 @@
+comparison,scope,point_estimate,ci_low,ci_high,bootstrap_sd,patients,images_per_patient,repeats,seed,method,monte_carlo_subset_variance
+KID_U_OFF_minus_ON_vs_REAL,patient_balanced_common_support,0.08062634052031768,0.07549770383378247,0.08558326851010317,0.0025394622138774827,859,2,2000,20261012,paired patient-cluster percentile bootstrap of full unbiased polynomial MMD squared,False

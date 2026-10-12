@@ -1,0 +1,9 @@
+claim,evidence,limit
+Controlled CPFM injection changes saved pixels,Table04 + exact node/index/seed pairing,Path dependence; neither image is ground truth
+Natural-image feature distribution distance is measured,Table03 + Table09,Inception has natural-image domain bias; no clinical certification
+Low-level texture and candidate overlays are quantified,Table05 + Table07,Whole-image statistical proxies; resize/acquisition nuisance and unknown clinical false-positive rates
+Six-seed within-node variation is quantified,Table06,Technical seed pairs are not independent clinical patients
+Full and Plain routes are image/seed aligned,Table01 + frozen auxiliary source audit,Different routes/conditions; not isolated CPFM effects
+Thyroid anatomy or pathology authenticity,NOT_ESTABLISHED,No validated ROI model or completed expert review
+Future target-year reconstruction,NOT_ESTABLISHED,No exact future-year real-image truth in this study
+Independent HT prediction utility,NOT_RUN,"No new CLIMATv2 training, replay, Test access or validation"

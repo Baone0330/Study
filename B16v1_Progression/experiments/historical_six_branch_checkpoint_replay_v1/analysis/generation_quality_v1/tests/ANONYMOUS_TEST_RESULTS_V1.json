@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "returncode": 0,
+  "output": "test_metric_units_toy (__main__.ContractTests) ... ok\ntest_missing_reference_is_error_not_fake_score (__main__.ContractTests) ... ok\ntest_pair_alignment_toy (__main__.ContractTests) ... ok\ntest_patient_cluster_weighting (__main__.ContractTests) ... ok\ntest_publication_privacy_toy (__main__.ContractTests) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.061s\n\nOK\n",
+  "clinical_input": 0
+}
