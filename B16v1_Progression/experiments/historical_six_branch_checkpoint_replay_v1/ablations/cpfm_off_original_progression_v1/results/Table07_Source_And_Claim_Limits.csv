@@ -1,0 +1,8 @@
+topic,supported_claim,prohibited_claim
+Identity,Original P16 seed20260921 epoch120; old F16/B14 and historical K6,new Clean/Strict/S2 experiment
+CPFM injection,Original enabled gate bypass; P16 computation unchanged,P16 remains actively injected in OFF
+Module utility,Background-specific injection-path necessity/system dependence,fully independent P16 and CPFM causal decomposition
+ON parity,36/36 true ON pixels exact plus full source/seed/slot lineage,all9270 ON images resampled or exact old runtime revision recovered
+Statistics,189 patient-level paired stratified bootstrap2000; mean three-seed probabilities,567 independent patients or image-level clinical bootstrap
+Evaluation,historical internal Val previously used for checkpoint/threshold selection,independent clinical Test validation
+Medical realism,"numerical, decode and distribution QA; all poor/zero outputs retained",medical expert reviewed progression validity

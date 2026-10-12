@@ -1,0 +1,39 @@
+{
+  "status": "PASS_NONMEDICAL_FIGURES",
+  "figure_count": 5,
+  "actual_visual_inspection": true,
+  "backend": "Python",
+  "review_scope": "Readability, labels, clipping, numeric/color mapping and stated denominators; not clinical image validation",
+  "figures": [
+    {
+      "figure": "Fig01_CPFM_ON_OFF_Mechanism",
+      "review": "PASS",
+      "finding": "Module internals, parallel original B14 branches, sole enabled gate and OFF bypass are legible; intervention-path limitation remains explicit."
+    },
+    {
+      "figure": "Fig02_Historical_References_New_OFF",
+      "review": "PASS",
+      "finding": "Seven original/new rows are separated; ON blue and OFF orange; rounded ROC/AP labels match source values; zero-based metric axes."
+    },
+    {
+      "figure": "Fig03_Paired_Bootstrap_Differences",
+      "review": "PASS",
+      "finding": "Both intervals visibly cross zero; positive points, negative endpoints and zero reference are retained."
+    },
+    {
+      "figure": "Fig04_Engineering_Difference_Distributions",
+      "review": "PASS",
+      "finding": "Four panels readable; full 9270 pairs and fixed 36-pair pilot distinguished; no actual label clipping or excluded observations."
+    },
+    {
+      "figure": "Fig05_Seed_Stability_Threshold_Metrics",
+      "review": "PASS",
+      "finding": "Three seed points per arm/metric and ensemble threshold metrics are distinguished; consistent colors and no seed CI implied."
+    }
+  ],
+  "medical_images_viewed": 0,
+  "medical_expert_review": "NOT_RUN",
+  "local_statistical_image_files_saved": 0,
+  "preview_method": "Server-side Python resized in-memory copies streamed transiently to the conversation",
+  "reviewed_at_utc": "2026-10-12 08:43:11 UTC"
+}

@@ -1,0 +1,3 @@
+object,input_dim,hidden_dim,fusion_output,condition_output
+Original P16,64,128,64,16
+B14 physical hooks per batch,4,31,124,OFF0/ON124

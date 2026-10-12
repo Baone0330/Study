@@ -1,0 +1,20 @@
+# Structural public template. Real paths and exact queue are private.
+protocol: "HISTORICAL_ORIGINAL_PROGRESSION_CPFM_ONLY_ABLATION_V1"
+comparison_route: "H"
+reference_model: "Original Progression 20260921 epoch120, not S2/Clean"
+requested_inference_steps: 30
+guidance_scale: 7.0
+resolution: [512, 512]
+dtype: "fp16"
+images_per_generated_node: 6
+original_generation_batch: 6
+lora_override: "NONE"
+generator_nodes: 1545
+generator_images: 9270
+train_n: 860
+val_n: 189
+climatv2_training_seeds: [42, 3407, 2026]
+bootstrap_seed: 20261012
+n_resamples: 2000
+clinical_test_status: "NOT_RUN"
+private_dependency_configuration: "resolved via --data-root in a private untracked directory; no example clinical rows"

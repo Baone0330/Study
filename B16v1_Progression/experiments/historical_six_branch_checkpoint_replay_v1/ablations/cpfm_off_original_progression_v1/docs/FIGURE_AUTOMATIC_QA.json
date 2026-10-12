@@ -1,0 +1,88 @@
+{
+  "status": "AUTO_PASS_ACTUAL_REVIEW_PASS",
+  "figures": [
+    {
+      "figure": "Fig01_CPFM_ON_OFF_Mechanism",
+      "dpi": 600,
+      "pixel_dimensions": [
+        4322,
+        3212
+      ],
+      "svg_editable_text": true,
+      "rendered_text_count": 20,
+      "minimum_rendered_font_points": 7.0,
+      "tick_filter": "exact installed Matplotlib Axis.draw tick list; inactive labels excluded",
+      "text_boundary_check": "PASS",
+      "agent_visual_review": "PASS",
+      "medical_review": "NOT_RUN",
+      "contains_medical_pixels": false
+    },
+    {
+      "figure": "Fig02_Historical_References_New_OFF",
+      "dpi": 600,
+      "pixel_dimensions": [
+        4322,
+        2362
+      ],
+      "svg_editable_text": true,
+      "rendered_text_count": 43,
+      "minimum_rendered_font_points": 7.0,
+      "tick_filter": "exact installed Matplotlib Axis.draw tick list; inactive labels excluded",
+      "text_boundary_check": "PASS",
+      "agent_visual_review": "PASS",
+      "medical_review": "NOT_RUN",
+      "contains_medical_pixels": false
+    },
+    {
+      "figure": "Fig03_Paired_Bootstrap_Differences",
+      "dpi": 600,
+      "pixel_dimensions": [
+        4322,
+        1842
+      ],
+      "svg_editable_text": true,
+      "rendered_text_count": 8,
+      "minimum_rendered_font_points": 7.5,
+      "tick_filter": "exact installed Matplotlib Axis.draw tick list; inactive labels excluded",
+      "text_boundary_check": "PASS",
+      "agent_visual_review": "PASS",
+      "medical_review": "NOT_RUN",
+      "contains_medical_pixels": false
+    },
+    {
+      "figure": "Fig04_Engineering_Difference_Distributions",
+      "dpi": 600,
+      "pixel_dimensions": [
+        4322,
+        3188
+      ],
+      "svg_editable_text": true,
+      "rendered_text_count": 55,
+      "minimum_rendered_font_points": 7.5,
+      "tick_filter": "exact installed Matplotlib Axis.draw tick list; inactive labels excluded",
+      "text_boundary_check": "PASS",
+      "agent_visual_review": "PASS",
+      "medical_review": "NOT_RUN",
+      "contains_medical_pixels": false
+    },
+    {
+      "figure": "Fig05_Seed_Stability_Threshold_Metrics",
+      "dpi": 600,
+      "pixel_dimensions": [
+        4322,
+        2244
+      ],
+      "svg_editable_text": true,
+      "rendered_text_count": 22,
+      "minimum_rendered_font_points": 7.5,
+      "tick_filter": "exact installed Matplotlib Axis.draw tick list; inactive labels excluded",
+      "text_boundary_check": "PASS",
+      "agent_visual_review": "PASS",
+      "medical_review": "NOT_RUN",
+      "contains_medical_pixels": false
+    }
+  ],
+  "backend": "Python",
+  "created_utc": "2026-10-12T08:36:38.432102+00:00",
+  "actual_review_updated_utc": "2026-10-12 08:43:11 UTC"
+}

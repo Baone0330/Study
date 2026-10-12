@@ -1,0 +1,3 @@
+# Interpretation boundaries
+
+The intervention disables the sole active P16-to-UNet path. It measures background-specific injection-path dependence, not independent module causality. Negative differences, zero image response and confidence intervals crossing zero are valid outputs. The old Plain-SD is a different historical route, not this OFF branch. Val was reused for selected-best checkpoints and thresholds; no independent Test or medical expert review was performed. Full 9,270-image RGB/F16 comparisons and fixed36-pilot UNet/latent comparisons have different denominators. Image observations are not independent patients.
