@@ -1,0 +1,4 @@
+patient_microbatch,gradient_accumulation,effective_patient_batch,patient_views,max_patient_views,two_optimizer_steps_seconds,patients_per_second,views_per_second,peak_allocated_GiB,logits_finite,all_trainable_grads_finite,optimizer_steps,precision,parameters,sm120,protocol
+1,8,8,92,92,0.48102882714010775,4.157754976745846,382.5134578606178,2.3619680404663086,True,True,2,FP32,12755009,True,largest native-history patients; no Val metrics; fresh pretrained model; smoke weights discarded
+2,4,8,152,92,0.17961728712543845,22.269571398250434,1692.487426267033,3.5099706649780273,True,True,2,FP32,12755009,True,largest native-history patients; no Val metrics; fresh pretrained model; smoke weights discarded
+4,2,8,253,92,0.2692643858026713,29.710576005631687,1879.1939323562042,5.621172904968262,True,True,2,FP32,12755009,True,largest native-history patients; no Val metrics; fresh pretrained model; smoke weights discarded

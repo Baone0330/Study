@@ -1,0 +1,6 @@
+canonical_en,canonical_zh,boundary
+LTSA-HT adapted predictor,基于LTSA的HT适配预测器,not unmodified survival LTSA
+REAL Exam,真实检查,"observed native date, not LOCF"
+bounded synthetic annual-query token,有真实历史界限的合成年查询token,not observed Exam/future truth
+average precision (AP),平均精度,sklearn average_precision_score
+internal validation,内部验证,not Official Test

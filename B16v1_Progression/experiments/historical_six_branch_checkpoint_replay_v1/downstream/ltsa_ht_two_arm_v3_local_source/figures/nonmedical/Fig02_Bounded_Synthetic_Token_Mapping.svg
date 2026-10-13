@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.4pt" height="295.2pt" viewBox="0 0 518.4 295.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-13T18:01:37.183104</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 295.2 
+L 518.4 295.2 
+L 518.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 23.496221 89.181697 
+L 494.903779 89.181697 
+Q 499.002975 89.181697 499.002975 86.868101 
+L 499.002975 37.704182 
+Q 499.002975 35.390586 494.903779 35.390586 
+L 23.496221 35.390586 
+Q 19.397025 35.390586 19.397025 37.704182 
+L 19.397025 86.868101 
+Q 19.397025 89.181697 23.496221 89.181697 
+z
+" clip-path="url(#p8308e9ed3b)" style="fill: #e8eef3; stroke: #5a6b7a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 23.496221 184.617539 
+L 243.828014 184.617539 
+Q 247.927211 184.617539 247.927211 182.303942 
+L 247.927211 130.248029 
+Q 247.927211 127.934433 243.828014 127.934433 
+L 23.496221 127.934433 
+Q 19.397025 127.934433 19.397025 130.248029 
+L 19.397025 182.303942 
+Q 19.397025 184.617539 23.496221 184.617539 
+z
+" clip-path="url(#p8308e9ed3b)" style="fill: #eaf0f4; stroke: #5a6b7a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 284.819976 184.617539 
+L 494.903779 184.617539 
+Q 499.002975 184.617539 499.002975 182.303942 
+L 499.002975 130.248029 
+Q 499.002975 127.934433 494.903779 127.934433 
+L 284.819976 127.934433 
+Q 280.72078 127.934433 280.72078 130.248029 
+L 280.72078 182.303942 
+Q 280.72078 184.617539 284.819976 184.617539 
+z
+" clip-path="url(#p8308e9ed3b)" style="fill: #f2e9df; stroke: #5a6b7a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 23.496221 280.05338 
+L 243.828014 280.05338 
+Q 247.927211 280.05338 247.927211 277.739784 
+L 247.927211 225.68387 
+Q 247.927211 223.370274 243.828014 223.370274 
+L 23.496221 223.370274 
+Q 19.397025 223.370274 19.397025 225.68387 
+L 19.397025 277.739784 
+Q 19.397025 280.05338 23.496221 280.05338 
+z
+" clip-path="url(#p8308e9ed3b)" style="fill: #eee9f3; stroke: #5a6b7a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 284.819976 280.05338 
+L 494.903779 280.05338 
+Q 499.002975 280.05338 499.002975 277.739784 
+L 499.002975 225.68387 
+Q 499.002975 223.370274 494.903779 223.370274 
+L 284.819976 223.370274 
+Q 280.72078 223.370274 280.72078 225.68387 
+L 280.72078 277.739784 
+Q 280.72078 280.05338 284.819976 280.05338 
+z
+" clip-path="url(#p8308e9ed3b)" style="fill: #efe7e4; stroke: #5a6b7a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(112.229375 60.014517)">Shared real-history skeleton: first REAL ... intermediate REAL ... last REAL</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(104.399375 68.972767)">Only observed date intervals; all native views; same860Train/189Val patients</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(113.480868 149.525236)">REAL-only</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(60.408993 158.483486)">4,585 real exams /18,413train views</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(91.935868 167.441736)">No synthetic content</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(340.585003 149.525236)">Original Progression arm</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(319.790003 158.483486)">+686 bounded virtual query nodes</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(314.205003 167.441736)">+4,116views;597patients augmented</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(68.368368 244.961077)">Virtual query is NOT a real Exam</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(58.686493 253.919327)">First-REAL anniversary -&gt; fixed query</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(50.398993 262.877577)">Strictly before last REAL;6views -&gt;1token</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(338.994378 244.961077)">Excluded (not remapped)</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(304.590003 253.919327)">758target-year +101after-last-REAL nodes</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(313.759378 262.877577)">Val always REAL only; last token REAL</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 133.662118 88.867115 
+Q 133.662118 108.558661 133.662118 127.132174 
+" style="fill: none; stroke: #526b7c; stroke-linecap: round"/>
+    <path d="M 135.462118 123.532174 
+L 133.662118 127.132174 
+L 131.862118 123.532174 
+" style="fill: none; stroke: #526b7c; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 389.861878 88.867115 
+Q 389.861878 108.558661 389.861878 127.132174 
+" style="fill: none; stroke: #526b7c; stroke-linecap: round"/>
+    <path d="M 391.661878 123.532174 
+L 389.861878 127.132174 
+L 388.061878 123.532174 
+" style="fill: none; stroke: #526b7c; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8308e9ed3b">
+   <rect x="3.00024" y="3.00024" width="512.39952" height="289.19952"/>
+  </clipPath>
+ </defs>
+</svg>

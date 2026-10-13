@@ -1,0 +1,10 @@
+{
+  "status": "PASS_AFTER_ACTUAL_VIEW",
+  "figures": [
+    "Fig01_LTSA_HT_Detailed_Architecture",
+    "Fig02_Bounded_Synthetic_Token_Mapping"
+  ],
+  "scope": "nonmedical only; initial arrow-title crossings corrected and actually re-viewed; no medical pixels",
+  "future_statistical_figures": "NOT_RUN_UNTIL_ACTUALLY_VIEWED",
+  "checked_utc": "2026-10-13T04:18:00.753479+00:00"
+}

@@ -1,0 +1,6 @@
+component,description
+ResNet18,"all native views224RGB; stages64/128/256/512x2;12,755,009 total model parameters"
+pool,allvalid views; one token per actualExam or virtualsource node
+TPE,original sinusoidal512; observed or frozenboundedquery relative month; maximum78
+Transformer,1layer/4heads/FFN512ReLU/postnorm/.25dropout/causal+padding
+head,lastREALtoken/Dropout.25/Linear512->1/BCElogits

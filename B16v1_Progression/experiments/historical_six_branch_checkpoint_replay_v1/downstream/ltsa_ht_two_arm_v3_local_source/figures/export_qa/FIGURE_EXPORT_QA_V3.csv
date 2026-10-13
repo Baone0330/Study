@@ -1,0 +1,6 @@
+figure,dimensions,dpi,mode,auto_export,actual_agent_visual_review,medical_pixels
+Fig01_LTSA_HT_Detailed_Architecture,4320x3720,600,RGB,PASS,NOT_RUN,False
+Fig02_Bounded_Synthetic_Token_Mapping,4320x2460,600,RGB,PASS,NOT_RUN,False
+Fig03_Two_Arm_Internal_Val_ROC_PR,4320x2040,600,RGB,PASS,NOT_RUN,False
+Fig04_Seed_And_Ensemble_Performance,4320x2100,600,RGB,PASS,NOT_RUN,False
+Fig05_OP_Minus_REAL_Paired_Intervals,4320x1920,600,RGB,PASS,NOT_RUN,False

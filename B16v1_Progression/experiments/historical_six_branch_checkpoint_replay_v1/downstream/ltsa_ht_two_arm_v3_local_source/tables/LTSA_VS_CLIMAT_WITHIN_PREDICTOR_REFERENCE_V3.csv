@@ -1,0 +1,3 @@
+predictor,REAL_ROC_AUC,OP_ROC_AUC,delta_OP_minus_REAL,status,protocol
+CLIMATv2_historical_runbook_reference,0.763885,0.871808,0.10792299999999999,REFERENCE_FROM_PROVIDED_WORK_DOCUMENT_NOT_RECOMPUTED,historical fixedK6/full9270synthetic; not same LTSA native/bounded686 protocol
+LTSA_HT_adapted,0.859041853119242,0.7902079494603844,-0.06883390365885755,ACTUALLY_MEASURED_TWO_ARM_PATIENT_ENSEMBLES,allnative observedhistory;686bounded synthetic query tokens; no OfficialTest

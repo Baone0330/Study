@@ -1,0 +1,3 @@
+split,patients,HT0,HT1,real_exams,native_views,max_exams,max_views_per_patient,max_views_per_exam,max_relative_month,unresolvable_patients,valid_time_tokens,synthetic_views
+train,860,617,243,4585,18413,7,92,50,78,0,4585,0
+val,189,131,58,991,3861,7,70,29,78,0,991,0

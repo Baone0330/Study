@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "tests": 15,
+  "failures": 0,
+  "errors": 0,
+  "actual_patient_data_used": false,
+  "framework": "stdlib unittest; pytest not installed"
+}
