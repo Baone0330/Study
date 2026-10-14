@@ -1,0 +1,79 @@
+task: LTSA_HT_V5_EXAM_LEVEL_FEATURE_FUSION_REAL_VS_OP
+project_private: REQUIRED_LOCAL_PRIVATE_PATH
+local_ltsa_source_private: REQUIRED_LOCAL_PRIVATE_PATH
+snapshot_private: REQUIRED_LOCAL_PRIVATE_PATH
+source_old_ablation_private: REQUIRED_LOCAL_PRIVATE_PATH
+quality_private: REQUIRED_LOCAL_PRIVATE_PATH
+raw_data_private: REQUIRED_LOCAL_PRIVATE_PATH
+resnet18_weights_private: REQUIRED_LOCAL_PRIVATE_PATH
+arms:
+- LTSA_V5_REAL_ONLY
+- LTSA_V5_ORIGINAL_PROGRESSION_FUSION
+seeds:
+- 42
+- 3407
+- 2026
+d_model: 512
+n_heads: 4
+n_layers: 1
+dim_feedforward: 512
+activation: relu
+dropout: 0.25
+tpe: original_local_fixed_sinusoidal_month_index
+step_ahead: false
+attn_map: false
+loss: BCEWithLogitsLoss_no_class_weight
+optimizer: AdamW
+lr: 0.0001
+weight_decay: 0.0001
+max_epoch: 60
+warmup_epoch: 5
+patience: 12
+min_epoch: 15
+effective_patient_batch: 8
+patient_microbatch: 4
+encoder_view_chunk: 16
+precision: FP32
+ImageNet_init: IMAGENET1K_V1_offline_strict
+encoder_trainable: true
+max_history_limit: null
+view_policy: all_native_pre_target_year_views
+tpe_month_rule: floor(actual_relative_days/30.4375)
+selection: ROC_AUC_then_AP_then_lower_loss_then_earlier_epoch
+threshold: Youden_J_on_Val_and_fixed_0.5_sensitivity
+bootstrap_repeats: 2000
+bootstrap_seed: 20261013
+proba_reload_atol: 1.0e-06
+preliminary_config: false
+augmentation_policy: same686 frozen nodes, no extra tokens; node-equal mean + masked
+  residual fusion
+no_LTSAsource_network_requests: true
+new_SD_sampling: 0
+new_upstream_training: 0
+Official_Test_content_access: 0
+gradient_accumulation: 2
+data_loader_workers: 2
+max_observed_relative_month: 78
+tpe_max_len: 79
+autograd_activation_checkpointing: false
+BatchNorm: standard_resnet18_train_running_stats; no freeze or checkpoint recomputation
+augmentation_policy_reason: authoritative frozen queries equal observed first-history
+  anniversary+annual index; all conditions strict prequery REAL;758target-year+101after-lastREAL
+  excluded before Val
+FP32_runtime: deterministic_algorithms; TF32off; mathSDPA only; MHAfastpathoff; viewchunk16;
+  sample loss once; final partial optimizer group normalized by actual patients
+frozen_utc: PRIVATE_TIMESTAMP_OMITTED
+augmentation_eligible_nodes: 686
+augmentation_eligible_views: 4116
+augmentation_patients_with_synthetic: 597
+augmentation_patients_without_synthetic: 263
+augmentation_mapping_frozen_utc: PRIVATE_TIMESTAMP_OMITTED
+last_prediction_token: latest REAL historical Exam; REAL timeline identical in both
+  V5 arms
+fusion_scale: 0.1
+fusion_norms: separate trainable real and synthetic LayerNorm512; both arms identical
+fusion_attachment: first REAL date strictly later than frozen query
+fusion_init: default PyTorch, after unchanged baseline constructor, preserving Python/NumPy/TorchCPU/CUDA
+  RNG
+encoder_order: all REAL views in batch first, then all synthetic views; shared weights,
+  chunk16; standard train BN

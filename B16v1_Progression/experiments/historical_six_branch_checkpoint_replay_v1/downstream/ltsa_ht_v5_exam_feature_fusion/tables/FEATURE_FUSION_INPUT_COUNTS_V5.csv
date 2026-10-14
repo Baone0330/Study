@@ -1,0 +1,3 @@
+split,patients,HT0,HT1,REAL_exams,REAL_views,synthetic_nodes,synthetic_views,patients_with_synthetic,patients_without_synthetic,attached_REAL_exams,real_exams_zero_nodes,real_exams_one_node,real_exams_two_plus_nodes,duplicate_bindings,missing_nodes,Val_synthetic_access
+train,860,617,243,4585,18413,686,4116,597,263,618,3967,550,68,0,0,0
+val,189,131,58,991,3861,0,0,0,189,0,991,0,0,0,0,0

@@ -1,0 +1,20 @@
+{
+  "status": "PASS_AGENT_ACTUAL_VIEW",
+  "reviewed_figure_groups": 4,
+  "clinical_images": 0,
+  "clinical_expert_review": "NOT_RUN",
+  "review_notes": {
+    "actual_images_viewed": true,
+    "labels_legible": true,
+    "no_overlap": true,
+    "numeric_and_architecture_content_checked": true,
+    "scope": "Agent viewed all four final nonmedical PNGs through conversation-only Python-generated previews; no local statistical preview files, no clinical images, no clinician certification.",
+    "figure_notes": {
+      "Fig01_V5_ROC_PR": "Both panels, axis labels, legends and n=189/58-positive heading are legible. Blue solid REAL and amber dashed OP lines match the caption. Rounded AUC0.859/0.871 and AP0.811/0.803 match measured aggregates; no superiority or significance claim is drawn.",
+      "Fig02_V3_V4_V5_Descriptive_Comparison": "All six protocol-arm bars per metric are visible with a zero-based 0-to-1 scale. Staggered numeric labels no longer collide. REAL blue and OP hatched amber remain distinguishable; V3/V4 virtual-token versus V5 Exam-fusion labels are explicit and do not imply a causal token-count experiment.",
+      "Fig03_V5_Seeds_and_Ensemble": "Seeds42/3407/2026 and probability ensemble appear in both AUC/AP panels. Blue circles and amber squares are legible; negative seed2026 AUC and seed3407 AP outcomes are retained. The ensemble point represents probability averaging, not an average of metric points or independent patient replicates.",
+      "Fig04_V5_Exam_Fusion_Internal_Architecture": "The anonymous query points attach to first later REAL2 without a new token. Shared encoder, six-image node mean, equal-node aggregation, two LayerNorms, scalar gate, difference projection and fixed0.1 residual are legible. The raw REAL r_i skip is explicitly separate from normalized h_r; strict empty-node identity, unchanged temporal masks and last-REAL readout are shown without clinical pixels or patient dates."
+    }
+  },
+  "reviewed_utc": "2026-10-14T10:05:56.878271+00:00"
+}

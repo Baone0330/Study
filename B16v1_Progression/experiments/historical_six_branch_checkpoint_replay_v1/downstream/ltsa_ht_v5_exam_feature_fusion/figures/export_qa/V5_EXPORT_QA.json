@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "backend": "Python matplotlib",
+  "figures": [
+    {
+      "figure": "Fig01_V5_ROC_PR",
+      "PNG_600dpi": true,
+      "SVG_editable_text": true,
+      "embedded_raster": false,
+      "min_font_pt": 8.0,
+      "text_bounds": "PASS",
+      "pixel_shape": [
+        4272,
+        2039
+      ],
+      "automatic_status": "PASS",
+      "actual_visual_review": "NOT_RUN"
+    },
+    {
+      "figure": "Fig02_V3_V4_V5_Descriptive_Comparison",
+      "PNG_600dpi": true,
+      "SVG_editable_text": true,
+      "embedded_raster": false,
+      "min_font_pt": 8.0,
+      "text_bounds": "PASS",
+      "pixel_shape": [
+        4273,
+        2008
+      ],
+      "automatic_status": "PASS",
+      "actual_visual_review": "NOT_RUN"
+    },
+    {
+      "figure": "Fig03_V5_Seeds_and_Ensemble",
+      "PNG_600dpi": true,
+      "SVG_editable_text": true,
+      "embedded_raster": false,
+      "min_font_pt": 8.0,
+      "text_bounds": "PASS",
+      "pixel_shape": [
+        4262,
+        2002
+      ],
+      "automatic_status": "PASS",
+      "actual_visual_review": "NOT_RUN"
+    },
+    {
+      "figure": "Fig04_V5_Exam_Fusion_Internal_Architecture",
+      "PNG_600dpi": true,
+      "SVG_editable_text": true,
+      "embedded_raster": false,
+      "min_font_pt": 8.0,
+      "text_bounds": "PASS",
+      "pixel_shape": [
+        6340,
+        3230
+      ],
+      "automatic_status": "PASS",
+      "actual_visual_review": "NOT_RUN"
+    }
+  ],
+  "clinical_image_pixels": 0,
+  "actual_visual_review": "NOT_RUN"
+}

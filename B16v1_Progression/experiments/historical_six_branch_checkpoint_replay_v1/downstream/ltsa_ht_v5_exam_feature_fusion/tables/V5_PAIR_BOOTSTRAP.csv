@@ -1,0 +1,3 @@
+metric,delta_OP_minus_REAL,ci_low,ci_high,paired_patients,bootstrap_requested,bootstrap_valid,bootstrap_skipped_one_class,bootstrap_seed
+ROC_AUC,0.01158199526191106,-0.03649760446944798,0.061369527877596364,189,2000,2000,0,20261013
+AP,-0.008113796909074211,-0.06864763047993735,0.051396004557083,189,2000,2000,0,20261013

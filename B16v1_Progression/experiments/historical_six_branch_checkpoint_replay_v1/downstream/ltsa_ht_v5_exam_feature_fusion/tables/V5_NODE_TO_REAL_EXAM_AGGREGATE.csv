@@ -1,0 +1,14 @@
+category,value,count
+anchor_ordinal,2,169.0
+anchor_ordinal,3,146.0
+anchor_ordinal,4,92.0
+anchor_ordinal,5,80.0
+anchor_ordinal,6,199.0
+nodes_per_attached_exam,1,550.0
+nodes_per_attached_exam,2,68.0
+query_to_anchor_days,min,183.0
+query_to_anchor_days,median,371.0
+query_to_anchor_days,p25,312.0
+query_to_anchor_days,p75,493.0
+query_to_anchor_days,max,1615.0
+query_to_anchor_days,mean,477.9533527696793
